@@ -16,7 +16,7 @@ module Jekyll
     end
 
     def render(context)
-      lead = context.registers[:site].posts.find_all {|p| @category.in?(p.data["categories"])}
+      lead = context.registers[:site].posts.find_all {|p| p.data["categories"].include?(@category)}
                                            .sort_by {|p| p.data["sort"]}
                                            .first
 
