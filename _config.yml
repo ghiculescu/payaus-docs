@@ -1,0 +1,7 @@
+permalink: /:categories/:title
+
+jekyll_sort:
+  - src: posts
+    by: sort
+    direction: up
+    dest: posts_sorted_by_order
