@@ -1,5 +1,7 @@
 permalink: /:categories/:title
 
+exclude: ['bin', 'vendor', 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile', 'unicorn.rb', 'config.ru', 'README.md']
+
 jekyll_sort:
   - src: posts
     by: sort
