@@ -23,5 +23,5 @@
     level = this_level; // update for the next one
   });
   html += "</ol>";
-  output.html(html);
+  output.hide().html(html).show('slow');
 })()

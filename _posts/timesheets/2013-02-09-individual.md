@@ -1,6 +1,6 @@
 ---
 layout: guide
-title: Under The Microscope
+title: Timesheets - Under The Microscope
 categories: ['timesheets']
 sort: 2
 ---

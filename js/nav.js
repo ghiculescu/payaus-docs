@@ -1,4 +1,4 @@
-;(function hide_inactive_nav() {
+$(document).ready(function() {
   var nav = $('ul.nav')
   var active_link = nav.find('li.active'), active_category = active_link.attr('data-category');
 
@@ -12,6 +12,7 @@
       ele.attr('data-hidden', true);
       nav.find('[data-category='+thiscat+']:not(.nav-header)').hide();
     }
+  })
 
   nav.on('click', '.toggle', function() {
     var ele = $(this);
@@ -36,4 +37,3 @@
     }
   });
 });
-})()
