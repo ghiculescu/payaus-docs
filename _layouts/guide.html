@@ -6,19 +6,25 @@ layout: default
     <div class="span3">
       <div class="well sidebar-nav">
         <ul class="nav nav-list">
-          {% capture page_category %}{{ page.categories | first }}{% endcapture %}
-          <li class="nav-header">{{ page_category }}</li>
-          {% for post in site.posts_sorted_by_order %}
-            {% if post.categories[0] == page_category %}
-              <li {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}">{{post.title}}</a></li>
-            {% endif %}
+          <a href="/index.html"><img src="/img/help_logo.png" alt="PayAus Help Logo" /></a>
+          {% for category in site.posts_sorted_by_category %}
+            {% capture cat_name %}{{ category | first }}{% endcapture %}
+            <li data-category="{{cat_name}}" class="nav-header">
+              {{ cat_name }}
+              <i class="toggle icon-plus"> </i>
+            </li>
+            {% for post in category[1] %}
+              <li data-category="{{cat_name}}" {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endfor %}
           {% endfor %}
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
-    <div class="span9">
+    <div class="span9 guide">
       <div class="well well-small">
         <h2>{{ page.title }}</h2>
+        {% if page.subtitle %} <p class="lead">{{ page.subtitle }}</p> {% endif %}
+        <div class="toc"></div>
       </div>
       {{ content }}
     </div><!--/span-->

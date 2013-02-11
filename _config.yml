@@ -1,9 +1,6 @@
-permalink: /:categories/:title
+permalink: /:categories/:title/
 
 exclude: ['bin', 'vendor', 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile', 'unicorn.rb', 'config.ru', 'README.md']
 
-jekyll_sort:
-  - src: posts
-    by: sort
-    direction: up
-    dest: posts_sorted_by_order
+# the order that categories appear in the sidebar
+sort_order: ['staff', 'timesheets', 'rosters', 'reports', 'notifications', 'portals']
