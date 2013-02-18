@@ -31,7 +31,7 @@ You can change a department's deatils simply by clicking on the appropriate fiel
 
 Initially, a department will have zero staff, and therefore cannot have a manager. So the next step, after creating one, is to add staff to it. For more information about doing so, take a look at the [staff guide](../team/).
 
-Once a department has staff, it can be assigned a manager. A department manager is a user of the PayAus system who has some additional power, but only over their department. Managers are able to view staff details, timesheets, and so forth &mdash; just like business managers can &mdash; but only for staff in their department.
+Once a department has staff, it can be assigned a manager. A department manager is a user of the PayAus system who has some additional power, but only over their department. Managers are able to view staff details, timesheets, and so forth but only for staff in their department.
 
 You can assign a department manager by clicking on the manager's name, or the dash, if there isn't currently a manager. As with other details, changes are saved instantly.
 
