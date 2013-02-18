@@ -26,8 +26,10 @@ Finally, the **Add a team member** textbox allows you to type a specific employe
 
 ### Removing Staff
 
-Removing someone from your roster is easy &mdash; just click the <i class="icon-trash"> </i> trash can icon near their name. Note that this can't be reversed; you'll need to add them manually and re-add all their times if you remove someone incorrectly.
+Removing someone from your roster is easy &mdash; just click the <i class="icon-remove"> </i> delete icon near their name. Note that this can't be reversed; you'll need to add them manually and re-add all their times if you remove someone incorrectly.
 
 ![Remove employee from roster](/img/rosters/remove_from_roster.png)
 
 {% render_partial irreversible.html %}
+
+If you just want to clear someone's schedule, click the <i class="icon-trash"> </i> trash can icon. Read more on our guide to [Dates and Times](../times/).
