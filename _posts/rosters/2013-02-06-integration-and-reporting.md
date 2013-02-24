@@ -3,7 +3,7 @@ published: false
 layout: guide
 title: Tips and Tricks
 categories: ['rosters']
-sort: 4
+sort: 5
 ---
 
 Reporting integration?

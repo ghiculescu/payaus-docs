@@ -5,10 +5,11 @@ categories: ['rosters']
 sort: 2
 ---
 
+![A big and beautiful roster](/img/rosters/full.png)
 
 ### Adding Staff
 
-The first thing any roster needs is employees to fill it. There are a few ways to add staff to a PayAus roster, and they're all located at the bottom.
+The first thing any roster needs is employees to fill it. There are a few ways to add staff to a PayAus roster, and they're all located at the **bottom of the roster**.
 
 ![Adding staff to your roster](/img/rosters/staff_options.png)
 
