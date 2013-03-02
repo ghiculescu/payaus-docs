@@ -3,4 +3,4 @@ permalink: /:categories/:title/
 exclude: ['bin', 'vendor', 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile', 'unicorn.rb', 'config.ru', 'README.md']
 
 # the order that categories appear in the sidebar
-sort_order: ['staff', 'timesheets', 'rosters', 'reports', 'notifications', 'portals']
+sort_order: ['staff', 'timesheets', 'rosters', 'dashboard', 'notifications', 'portals']
