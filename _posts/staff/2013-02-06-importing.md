@@ -49,11 +49,11 @@ There are three important rules to keep in mind when exporting your data;
 
 From the [staff page](../team/), follow the prompts to get to the Import From MYOB page.
 
-![Importing to MYOB - navigation](/img/users/myob_navigation.png)
+![Importing from MYOB - navigation](/img/users/myob_navigation.png)
 
-Once you've exported your staff from MYOB, click the *Browse* button, and find where you saved the file to your computer. The button might look slightly different to how it does in the image below, depending on your web browser.
+Once you've exported your staff from MYOB, click the *Browse* button, and find where you saved the file to your computer. The button might look slightly different to how it does in the image below, depending on your web browser. You can also apply one or more [tags](../team/#fields_available) to the staff that will be imported by entering them into the text box, separated by commas.
 
-![Importing to MYOB - the page](/img/users/myob_import_page.png)
+![Importing from MYOB - the page](/img/users/user_import_form.png)
 
 Click the *Import Staff* button when you're ready. Importing can take a minute or two, depending on how many staff you have, so be patient &mdash; and **don't** click the button again!
 
@@ -63,9 +63,32 @@ When the import is complete you'll see your new list of staff. If there were any
 
 ### Exporting from Wage Easy
 
+PayAus can process staff information from a Wage Easy *Employee Report*. The exact export process depends on your version of Wage Easy, but they are all similar.
+
+1. Go to the `HR` menu.
+2. Click `User Defined Queries`, then choose the `Company Current Employee Report`.
+3. Select the relevant financial period. Usually you will only want to show current staff.
+4. Right click on the highlighted fields, and follow the prompt to export your data as a **`CSV`**.
+5. Save the `.csv` file somewhere on your computer.
+
+![Step 2 - The report to select](/img/users/wageeasy_export.png)
+
 ### Importing into PayAus
 
-<hr />
+From the [staff page](../team/), follow the prompts to get to the Import From Wage Easy page.
+
+![Importing from Wage Easy - navigation](/img/users/myob_navigation.png)
+
+Once you've exported your staff from Wage Easy, click the *Browse* button, and find where you saved the file to your computer. The button might look slightly different to how it does in the image below, depending on your web browser. You can also apply one or more [tags](../team/#fields_available) to the staff that will be imported by entering them into the text box, separated by commas.
+
+![Importing from Wage Easy - the page](/img/users/user_import_form.png)
+
+Click the *Import Staff* button when you're ready. Importing can take a minute or two, depending on how many staff you have, so be patient &mdash; and **don't** click the button again!
+
+When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the Wage Easy file was the culprit. The errors can be corrected by editing the Wage Easy `.csv` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
+
+## Using Other Systems
+
 <div class="alert alert-block">
 	<i class="icon-wrench"> </i>
 	<p>
