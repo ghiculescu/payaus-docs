@@ -42,3 +42,13 @@ You can assign a department manager by clicking on the manager's name, or the da
 You can delete a department by clicking the <i class="icon-remove"> </i> cross icon next to the department's details. When you delete a department, its staff are *not* deleted &mdash; they have simply have their "department" field set to "none", which means they won't be part of any department. Of course, you can easily re-assign staff to another department via their [details page](../team/).
 
 {% render_partial irreversible.html %}
+
+### Departmental Reporting
+
+PayAus' flexibility allows you to add staff to more than one department. That's great if, for example, you share staff between multiple locations or branches of your business. But how does work for reporting?
+
+PayAus lets you specify which department an employee should be classified under for reporting purposes. This means that reports such as "costs per department" will only include this employee's costs once, under the correct department, preventing double ups or confusion.
+
+You can set the reporting department on the [staff details page](../team/#editing_team_member_details). If you don't want this employee to be included in department-specific reports (for example, if they are a manager of a multiple departments but not a "member" of any), you can choose the blank option.
+
+![Editing the reporting department](/img/users/reporting_department.png)
