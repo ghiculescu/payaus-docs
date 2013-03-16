@@ -49,6 +49,6 @@ PayAus' flexibility allows you to add staff to more than one department. That's 
 
 PayAus lets you specify which department an employee should be classified under for reporting purposes. This means that reports such as "costs per department" will only include this employee's costs once, under the correct department, preventing double ups or confusion.
 
-You can set the reporting department on the [staff details page](../team/#editing_team_member_details). If you don't want this employee to be included in department-specific reports (for example, if they are a manager of a multiple departments but not a "member" of any), you can choose the blank option.
+You can set the reporting department on the [staff details page](../team/#editing_team_member_details). If the employee is only part of one department, the reporting department will default to this, but you can change it to anything you like. If you don't want this employee to be included in department-specific reports (for example, if they are a manager of a multiple departments but not a "member" of any), you can choose the blank option.
 
 ![Editing the reporting department](/img/users/reporting_department.png)
