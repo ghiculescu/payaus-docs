@@ -4,11 +4,16 @@
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} PayAus Help</title>
   <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
-  <!--<script type="text/javascript" src="/js/bootstrap.min.js"></script>-->
+  {% bundle %}
+  - /css/bootstrap.min.css
+  - /css/bootstrap-responsive.min.css
+  - /css/style.css
+  {% endbundle %}
+  {% bundle %}
+  - /js/jquery-1.9.1.min.js
+  - /js/nav.js
+  - /js/toc.js
+  {% endbundle %}
   {% render_partial analytics.html %}
 </head>
 <body>
@@ -35,7 +40,5 @@
       </ul>
     </div>
   </footer>
-  <script type="text/javascript" src="/js/nav.js"></script>
-  <script type="text/javascript" src="/js/toc.js"></script>
 </body>
 </html>

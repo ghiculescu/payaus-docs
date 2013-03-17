@@ -1,4 +1,4 @@
-;(function generate_toc() {
+$(document).ready(function() {
   var headers = $('h1, h2, h3, h4, h5, h6').filter(function() {return this.id;});
   var output = $('.toc');
   if (!headers.length || headers.length < 3 || !output.length)
@@ -24,4 +24,4 @@
   });
   html += "</ol>";
   output.hide().html(html).show('slow');
-})()
+});

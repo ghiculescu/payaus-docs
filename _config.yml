@@ -4,3 +4,12 @@ exclude: ['bin', 'vendor', 'Gemfile', 'Gemfile.lock', 'Procfile', 'Rakefile', 'u
 
 # the order that categories appear in the sidebar
 sort_order: ['staff', 'timesheets', 'rosters', 'dashboard', 'notifications', 'portals']
+
+asset_bundler:
+  compress:
+    js: yui
+    css: yui
+  base_path: /bundles/
+  server_url:
+  remove_bundled: false
+  dev: false
