@@ -11,7 +11,7 @@ $(document).ready(function() {
   var level = get_level(headers[0]); // get the initial level
   var this_level;
 
-  var html = "Jump to... <ol>";
+  var html = "<i>Jump to...</i> <ol>";
   headers.each(function(_, header) {
     this_level = get_level(header);
     if (this_level === level) // same level as before; same indenting

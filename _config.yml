@@ -12,4 +12,4 @@ asset_bundler:
   base_path: /bundles/
   server_url:
   remove_bundled: false
-  dev: false
+  dev: true

@@ -23,7 +23,11 @@ layout: default
     <div class="span9 guide">
       <div class="well well-small">
         <h2>{{ page.title }}</h2>
-        {% if page.subtitle %} <p class="lead">{{ page.subtitle }}</p> {% endif %}
+        {% if page.subtitle %}
+          <p class="lead">{{ page.subtitle }}</p>
+        {% else %}
+          <p><small>Got a question? <a href="http://www.payaus.com/about/us?from=help" target="_blank">Email us</a> or tweet <a href="http://twitter.com/payauspayroll" target="_blank">@PayAusPayroll</a> for a quick answer.</small></p>
+        {% endif %}
         <div class="toc"></div>
       </div>
       {{ content }}
