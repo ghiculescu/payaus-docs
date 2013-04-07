@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  var nav = $('ul.nav')
-  var active_link = nav.find('li.active'), active_category = active_link.attr('data-category');
+  var nav = $('ul.nav'), active_link = nav.find('li.active'), active_category = active_link.attr('data-category');
 
   // set the headers to hidden, except the active one
   nav.find('.nav-header').each(function() {
@@ -15,8 +14,7 @@ $(document).ready(function() {
   })
 
   nav.on('click', '.toggle', function() {
-    var ele = $(this);
-    var header = ele.parents('.nav-header'), cat = header.attr('data-category');
+    var ele = $(this), header = ele.parents('.nav-header'), cat = header.attr('data-category');
 
     if (ele.is('.icon-plus')) {
       header.attr('data-hidden', false);

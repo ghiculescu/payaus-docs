@@ -1,6 +1,6 @@
+// https://github.com/ghiculescu/jekyll-table-of-contents
 $(document).ready(function() {
-  var headers = $('h1, h2, h3, h4, h5, h6').filter(function() {return this.id;});
-  var output = $('.toc');
+  var headers = $('h1, h2, h3, h4, h5, h6').filter(function() {return this.id;}), output = $('.toc');
   if (!headers.length || headers.length < 3 || !output.length)
     return;
 
@@ -8,10 +8,7 @@ $(document).ready(function() {
     return parseInt(ele.nodeName.replace("H", ""), 10);
   }
 
-  var level = get_level(headers[0]); // get the initial level
-  var this_level;
-
-  var html = "<i>Jump to...</i> <ol>";
+  var level = get_level(headers[0]), this_level, html = "<i>Jump to...</i> <ol>";
   headers.each(function(_, header) {
     this_level = get_level(header);
     if (this_level === level) // same level as before; same indenting
