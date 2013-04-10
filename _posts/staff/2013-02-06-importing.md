@@ -16,8 +16,8 @@ PayAus can process staff information from a MYOB *employee card export*. The exa
 1. Go to the `File` menu.
 2. Click an item that says `Export Data`, `Export Assistant`, or similar.
 3. If prompted, select to export `Cards` data (as opposed to, say, accounts or jobs).
-4. Follow the prompts to export your data. Don't forget the [golden rules](#three_golden_rules).
-5. MYOB will give you a `.txt` file, which you should save somewhere on your computer.
+4. Follow the prompts to export your data. Make sure the data is tab delimited and includes headers. See the [golden rules](#three_golden_rules) for more info.
+5. MYOB will generate a `.txt` file, which you should save somewhere on your computer.
 
 MYOB has more information on the export process on their support site:
 
