@@ -15,7 +15,7 @@ GEM
     Platform (0.4.0)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
-    directory_watcher (1.5.1)
+    directory_watcher (1.4.1)
     fast-stemmer (1.0.2)
     jekyll (0.12.1)
       classifier (~> 1.3)
@@ -49,6 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  directory_watcher (= 1.4.1)
   kramdown
   rack-jekyll!
   unicorn
