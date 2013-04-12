@@ -16,7 +16,7 @@ PayAus can process staff information from a MYOB *employee card export*. The exa
 1. Go to the `File` menu.
 2. Click an item that says `Export Data`, `Export Assistant`, or similar.
 3. If prompted, select to export `Cards` data (as opposed to, say, accounts or jobs).
-4. Follow the prompts to export your data. Make sure the data is tab delimited and includes headers. See the [golden rules](#three_golden_rules) for more info.
+4. Follow the prompts to export your data. Make sure the data is tab delimited and includes headers. See the [golden rules](#two_golden_rules) for more info.
 5. MYOB will generate a `.txt` file, which you should save somewhere on your computer.
 
 MYOB has more information on the export process on their support site:
@@ -24,19 +24,12 @@ MYOB has more information on the export process on their support site:
 * [Importing and exporting data](http://myobaustralia.custhelp.com/app/answers/detail/a_id/9072#export_data)
 * [Importing and exporting data in AccountRight 2011 and later](http://myobaustralia.custhelp.com/app/answers/detail/a_id/33521)
 
-#### Three Golden Rules
+#### Two Golden Rules
 
-There are three important rules to keep in mind when exporting your data;
+There are two important rules to keep in mind when exporting your data;
 
 1. Ensure your file is **tab delimited**. This means the spaces between fields are separated by tabs (as opposed to commas). The default in MYOB AccountRight 2011 and later is commas; you *must* change it to tabs.
 2. Ensure your file **includes headers**. This means the first row if the output file will contain the field headers, rather than field values. In most MYOB versions this is enabled by default, but you *should* double check.
-3. Ensure your file includes all **fields required by PayAus**. PayAus uses standard MYOB fields, so it's probably safest just to select all. If you do want to specify fields, just **make sure you include these ones**:
-	* First Name
-	* Co./Last Name
-	* Salary/Rate
-	* Pay Basis
-	* Pay Frequency
-	* Hours in Pay Period
 
 <div class="alert alert-block">
 	<i class="icon-thumbs-down"> </i>
