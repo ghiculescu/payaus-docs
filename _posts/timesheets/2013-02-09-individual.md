@@ -28,7 +28,7 @@ Kyle worked a fairly standard seven and a half hour shift today. His lunch break
 <div class="alert alert-block">
   <i class="icon-eye-open"> </i>
   <p>
-  	PayAus doesn't know Kyle personally. He could be the most honesty guy in the business, and just a tad forgetful with his clock-ins! PayAus simply helps to draw your attention to possible areas of concern in your business.
+  	PayAus doesn't know Kyle personally. He could be the most honest guy in the business, and just a tad forgetful with his clock-ins! PayAus simply helps to draw your attention to possible areas of concern in your business.
   </p>
 </div>
 
