@@ -17,6 +17,18 @@ layout: default
               <li data-category="{{cat_name}}" {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}">{{post.title}}</a></li>
             {% endfor %}
           {% endfor %}
+          <li>
+          <div id="search" class="control-group">
+            <div class="controls">
+              <div class="input-prepend">
+                <form action="/search/search" method="get"> 
+                <span class="add-on"><i class="icon-search"></i></span>
+                <input type="text" class="span10" id="search-query" name="q" placeholder="Search" autocomplete="off">
+                </form>
+              </div>
+            </div>
+          </div>
+          </li>
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
@@ -34,3 +46,14 @@ layout: default
     </div><!--/span-->
   </div><!--/row-->
 </div>
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
