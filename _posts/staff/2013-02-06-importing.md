@@ -80,6 +80,30 @@ Click the *Import Staff* button when you're ready. Importing can take a minute o
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the Wage Easy file was the culprit. The errors can be corrected by editing the Wage Easy `.csv` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
 
+## Importing from Excel
+
+Using Microsoft Excel, you can fill out a template in `.csv` format to import your staff data. From the [staff page](../team/), follow the prompts to get to the Import From Excel page.
+
+![Importing from Excel - navigation](/img/users/myob_navigation.png)
+
+On the import from Excel page, follow the link to download the [import template](http://www.payaus.com/docs/import_template.csv). You can open this fine in Excel, or in any text or spreadsheet editor.
+
+![Opening the import template in Numbers for Mac](/img/users/import_template_numbers.png)
+
+Fill the details for your staff into the appropriate columns. Add a new row for each employee. When you have finished filling out the data, save the file in `.csv` format. See these guides for more information:
+
+* [Microsoft Excel: Import or export text (.txt or .csv) files](http://office.microsoft.com/en-au/excel-help/import-or-export-text-txt-or-csv-files-HP010099725.aspx)
+* [Apple Numbers: Importing a document from another application](http://support.apple.com/kb/ht3779)
+* [Apple Numbers: Exporting a spreadsheet to other document formats](http://support.apple.com/kb/ht3719)
+
+You can then upload the filled out file back into PayAus. You can also apply one or more [tags](../team/#fields_available) to the staff that will be imported by entering them into the text box, separated by commas.
+
+![Importing from Wage Easy - the page](/img/users/user_import_form.png)
+
+Click the *Import Staff* button when you're ready. Importing can take a minute or two, depending on how many staff you have, so be patient &mdash; and **don't** click the button again!
+
+When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the `.csv` file was the culprit. The errors can be corrected by editing the `.csv` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
+
 ## Using Other Systems
 
 <div class="alert alert-block">
