@@ -1,52 +1,28 @@
 ---
 layout: guide
-title:  Workflows and Statuses
+title: Approving Timesheets
 categories: ['timesheets']
 sort: 3
 ---
 
 ### Statuses
 
-Timesheets can have have one of four statuses.
+Timesheets can have have one of three statuses: **pending**, **approved**, or **deleted**.
 
-#### Pending
+When a timesheet is first created, it is pending. This means it's a work in progress. As the timesheet's employee [clocks in or out]({% lead_post portals url %}), the timesheet is updated automatically &mdash; A new [shift](../individual/) is added for each day. Each shift can be *approved* by a manager; when all of the timesheet's shifts have been approved, the timesheet is considered complete, and is marked as approved.
 
-This is the default status for a timesheet. When an employee [clocks in]({% lead_post portals url %}), a pending timesheet is updated with the clock-in time (or if there are no pending timesheets, a new one is created).
-
-Pending timesheets have a <font color="#8bc5e8">blue</font> header.
-
-#### Approved
-
-An approved timesheet is "read-only"; no future clock-ins will be added to it (though you can still edit it manually). This is useful for your reference, as you can see at a glance which timesheets you've checked off and were happy with, and which ones you still need to look at.
-
-Approved timesheets have a <font color="#669533">green</font> header.
-
-#### Rejected
-
-An approved timesheet is "read-only"; no future clock-ins will be added to it (though you can still edit it manually). This is useful for your reference, as you can see at a glance which timesheets you've checked off and were not happy with, and which ones you still need to look at. Rejected timesheets do **not** show up in [exports](../exports/).
-
-Approved timesheets have a <font color="#bd4247">red</font> header.
-
-#### Deleted
-
-You can delete a timesheet if it was created in error. Once a timesheet is deleted, a new one will be created for this fortnight the next time the employee [clocks in]({% lead_post portals url %}).
+If a timesheet is created in error or otherwise needs to be removed, it can be deleted.
 
 ### Workflow
 
-The *Actions...* menu on the [timesheets list](../intro/) offers a few tools which will help with the fortnightly processing of timesheets.
+Timesheets can be processed on a day-by-day basis, giving managers a simple insight into who worked that day. From the [timesheets list](../intro/), click on the *Approve timesheets* button to access that day's timesheets.
 
 ![The timesheet actions... menu](/img/timesheets/timesheet_actions.png)
 
-#### Process pending timesheets
+The day-by-day timesheets view shows staff that worked, or were rostered, that day. A big tick indicates if the shift has been approved. The cost column gives the total cost of the shift; changes to this column update the total cost at the bottom of the page in real time, but are *not* saved when the shift is approved.
 
-This option opens a wizard which steps you through all currently displaying pending timesheets. It's a good thing to do once a fortnight, just after the timesheets have been completed. Clicking the button brings up a modal dialog which shows the timesheet's details, as well as three buttons: approve, reject, or cancel.
+![Timesheets day-by-day](/img/timesheets/timesheets_today.png)
 
-Approve and reject will update the timesheet's status, as well as saving any changes you've made. Cancel will close the modal and return you to the timesheet list.
+Managers can also use the approve all as a handy shortcut, and can click the green button at the bottom to move on to the next day, if they are working through several days worth of shifts. Alternatively, click the calendar icon to go to any date.
 
-![The modal dialog through which you can process pending timesheets](/img/timesheets/process_pending.png)
-
-#### Approve all timesheets
-
-This option updates the status of all currently displaying timesheets to approved, if their status is currently pending. When the action is complete, you'll see a summary of how many were approved.
-
-![Most timesheets approved!](/img/timesheets/after_approve_all.png)
+![Navigation calendar](/img/timesheets/today_timesheets_calendar.png)
