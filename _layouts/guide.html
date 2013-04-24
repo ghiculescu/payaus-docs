@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="span3">
+    <div class="span3 no-print">
       <div class="well sidebar-nav">
         <ul class="nav nav-list">
           <a href="/index.html"><img src="/img/help_logo.png" alt="PayAus Help Logo" /></a>
@@ -36,11 +36,12 @@ layout: default
       <div class="well well-small">
         <h2>{{ page.title }}</h2>
         {% if page.subtitle %}
-          <p class="lead">{{ page.subtitle }}</p>
+          <p class="lead no-print">{{ page.subtitle }}</p>
         {% else %}
-          <p><small>Got a question? <a href="http://www.payaus.com/about/us?from=help" target="_blank">Email us</a> or tweet <a href="http://twitter.com/payauspayroll" target="_blank">@PayAusPayroll</a> for a quick answer.</small></p>
+          <p class="no-print"><small>Got a question? <a href="http://www.payaus.com/about/us?from=help" target="_blank">Email us</a> or tweet <a href="http://twitter.com/payauspayroll" target="_blank">@PayAusPayroll</a> for a quick answer.</small></p>
         {% endif %}
-        <div class="toc"></div>
+        <p class="print-only"><em>This article from the PayAus Help site was downloaded from <a href="http://help.payaus.com{{ page.url }}">help.payaus.com{{ page.url }}</a></em></p>
+        <div class="toc no-print"></div>
       </div>
       {{ content }}
     </div><!--/span-->

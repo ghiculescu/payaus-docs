@@ -78,3 +78,21 @@ body {
 .footer-links li:first-child {
   padding-left: 0;
 }
+.print-only {
+  display:none;
+}
+
+@media print {
+  .no-print {
+    display:none !important;
+  }
+
+  .print-only {
+    display:block;
+  }
+
+  /* prevent browsers from writing the url after the link */
+  a[href]:after {
+    content: none !important;
+  }
+}
