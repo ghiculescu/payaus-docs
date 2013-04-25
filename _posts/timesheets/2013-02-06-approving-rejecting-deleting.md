@@ -15,6 +15,10 @@ The day-by-day timesheets view shows staff that worked, or were rostered, that d
 
 ![Timesheets day-by-day](/img/timesheets/timesheets_today.png)
 
+Sometimes, you will see data that looks a bit odd. For example, you might see the first and third columns filled out as the start and end time. In this case, the employee pressed **clock *in***, when they should have pressed **clock *out***, at the end of their shift. If you find such errors, simply change times in the textboxes so that they are in the correct column before approving the shift.
+
+![Clocked in, not out](/img/timesheets/clocked_in_not_out.png)
+
 Managers can also use the approve all as a handy shortcut, and can click the green button at the bottom to move on to the next day, if they are working through several days worth of shifts. Alternatively, click the calendar icon to go to any date.
 
 ![Navigation calendar](/img/timesheets/today_timesheets_calendar.png)
