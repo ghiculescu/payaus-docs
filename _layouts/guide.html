@@ -42,9 +42,11 @@ layout: default
             <i class="icon-question-sign"> </i> Got a question? <a href="http://www.payaus.com/about/us?from=help" target="_blank">Email us</a>, or tweet <a href="http://twitter.com/payauspayroll" target="_blank">@PayAusPayroll</a> for a quick answer.
             <br />
             <i class="icon-print"> </i> <a href="javascript:window.print()">Print this guide.</a>
+            <br />
+            {% last_update Last updated: %}
           </small></p>
         {% endif %}
-        <p class="print-only"><em>This PayAus Help guide was downloaded from <a href="http://help.payaus.com{{ page.url }}">help.payaus.com{{ page.url }}</a></em></p>
+        <p class="print-only"><em>This PayAus user guide was downloaded from <a href="http://help.payaus.com{{ page.url }}">help.payaus.com{{ page.url }}</a></em></p>
         <div class="toc no-print"></div>
       </div>
       {{ content }}
