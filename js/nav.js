@@ -19,7 +19,7 @@ $(document).ready(function() {
     if (ele.is('.icon-plus')) {
       header.attr('data-hidden', false);
       nav.find('li[data-category='+cat+']:not(.nav-header)').show(200);
-      nav.find('li[data-category!='+cat+']:not(.nav-header)').hide(200, function() {
+      nav.find('li[data-category][data-category!='+cat+']:not(.nav-header)').hide(200, function() {
         $(this).prev('.nav-header:first').find('.icon-minus').removeClass('icon-minus').addClass('icon-plus');
       })
       setTimeout(function() { // if this runs immediately, the event handler fires lots of times
