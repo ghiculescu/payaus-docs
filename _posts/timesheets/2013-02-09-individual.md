@@ -55,6 +55,7 @@ Thursday, like Wednesday, was a fully verifiable shift. But take a look at the l
 	<p>It's not currently possible to backdate pay changes.</p>
 </div>
 
+<span id="overnight"></span>
 #### Friday
 
 ![Friday](/img/timesheets/friday.png)

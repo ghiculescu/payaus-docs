@@ -2,7 +2,7 @@
 layout: guide
 title:  Exporting Staff Information
 categories: ['staff']
-sort: 5
+sort: 6
 ---
 
 Staff details can be exported into a variety of formats. Exporting is a two step process;

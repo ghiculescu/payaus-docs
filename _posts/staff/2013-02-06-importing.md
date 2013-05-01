@@ -2,7 +2,7 @@
 layout: guide
 title:  Importing Staff Data
 categories: ['staff']
-sort: 6
+sort: 4
 ---
 
 ## Using MYOB

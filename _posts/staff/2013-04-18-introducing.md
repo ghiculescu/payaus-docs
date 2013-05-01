@@ -2,7 +2,7 @@
 layout: guide
 title: Introducing Your Staff to PayAus
 categories: ['staff']
-sort: 4
+sort: 5
 ---
 
 PayAus can automatically welcome your staff, giving them a quick and straightforward introduction to how they'll use it. The most important bit of information your staff will need is their passcode, and PayAus can send it to them by Email or SMS.
