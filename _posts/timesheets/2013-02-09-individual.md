@@ -15,7 +15,7 @@ There's a lot happening here, so let's break it down.
 
 ![A timesheet header](/img/timesheets/timesheet_header.png)
 
-The header gives us introductory information regarding this timesheet. It starts with the basics &mdash; name, date range, and status. This guide was written on February 9, which means the timesheet is ongoing, as it goes until February 17. Because this timesheet's [status](../approving-rejecting-deleting/) is **pending**, this box is in light yellow. Colours differ for different timesheet statuses.
+The header gives us introductory information regarding this timesheet. It starts with the basics &mdash; name, date range, and status. This timesheet's [status](../approving-rejecting-deleting/) is **pending**, and it goes from April 15 to April 28. However, the clock-ins on the timesheet only go to April 20, as it's ongoing. Click the comment icon to see [comments](../../notifications/comments/) on the timesheet.
 
 ### Shifts
 
@@ -23,7 +23,7 @@ The header gives us introductory information regarding this timesheet. It starts
 
 ![Monday](/img/timesheets/monday.png)
 
-Kyle worked a fairly standard seven and a half hour shift today. His lunch break looks a bit short &mdash; according to the timesheet, he was only out for 18 minutes. But, given that his clock-in after lunch is [not verified](../verified-times/), it *may* be worth checking up on.
+Kyle worked a fairly standard seven and a half hour shift today. His lunch break looks a bit short &mdash; according to the timesheet, he was only out for 12 minutes. But, given that his clock-in after lunch is [not verified](../verified-times/), it *may* be worth checking up on.
 
 <div class="alert alert-block">
   <i class="icon-eye-open"> </i>
@@ -36,33 +36,29 @@ Kyle worked a fairly standard seven and a half hour shift today. His lunch break
 
 ![Tuesday](/img/timesheets/tuesday.png)
 
-Tuesday's times are similar to Monday's. As with Monday, there was a bit of forgetfulness with the lunch break.
+Tuesday is all good, and has been approved by a manager. Approve a shift using the thumbs <i class='icon-thumbs-up'> </i> up/<i class='icon-thumbs-down'> </i> down icons on the left hand side.
 
 #### Wednesday
 
 ![Wednesday](/img/timesheets/wednesday.png)
 
-Wednesday was a nice clean (and long!) shift. Kyle remembered to do all his clock-ins and clock-outs, and as a result, took a longer lunch break than the previous two days.
+Like Monday, Kyle was forgetful on Wednesday, hence some of the times are unconfirmed. He is also claiming quite short lunch breaks again.
 
 #### Thursday
 
 ![Thursday](/img/timesheets/thursday.png)
 
-Thursday, like Wednesday, was a fully verifiable shift. But take a look at the last column &mdash; the hourly rate is $1/hour higher than on previous days. If you change an employee's [hourly rate](../../staff/team/#fields_available) in PayAus, the change applies to all future shifts. Hourly rates are primarily used as an estimate.
-
-<div class="alert alert-block">
-	<i class="icon-thumbs-down"> </i>
-	<p>It's not currently possible to backdate pay changes.</p>
-</div>
+Thursday, like Tuesday, has been approved. It was a full eight hour shift.
 
 <span id="overnight"></span>
+<span id="overriden"></span>
 #### Friday
 
 ![Friday](/img/timesheets/friday.png)
 
-Kyle worked the late shift on Friday; 8:30 PM Friday night until 2:30 AM on Saturday morning. The yellow highlighting, and "AM" suffix, draw attention to this &mdash; if you want to mark any other time on the timesheet as being "overnight", you can so simply by appending an "AM". You should see the yellow highlighting appear automatically when you do.
+Kyle worked the late shift on Friday; 8 PM Friday night until 4:30 AM on Saturday morning. The yellow highlighting, and "AM" suffix, draw attention to this &mdash; if you want to mark any other time on the timesheet as being "overnight", you can so simply by appending an "AM". You should see the yellow highlighting appear automatically when you do.
 
-There are no breaks entered here. If that is incorrect, but you don't know what times the breaks were taken, you simply update the **Break** column (the last textbox) with the correct number of minutes, and click the *Update* button at the bottom.
+There are no breaks entered here. If that is incorrect, but you don't know what times the breaks were taken, you can simply update the **Break** column (the last textbox) with the correct number of minutes, and click the *Update* button at the bottom. The orange highlighting indicates that the break has been overriden.
 
 ![Friday, with breaks](/img/timesheets/friday_break.png)
 
@@ -70,13 +66,11 @@ There are no breaks entered here. If that is incorrect, but you don't know what 
 
 ![Saturday](/img/timesheets/saturday.png)
 
-Kyle took a well earned break and didn't work on Saturday. Well, he did &mdash; he worked unti 2:30 AM in the morning &mdash; but that's shown as part of Friday's shift, not Saturday's.
+Kyle was back at work early Saturday morning. Is that legal? Depends on his EBA &mdash; probably worth looking in to.
 
-#### The rest of the days
+#### Totals
 
 ![Subtotals](/img/timesheets/totals.png)
-
-This guide was written (and these screenshots taken) on Saturday, 9 February. That means that Kyle's timesheet is ongoing, as its [end date](#header) is February 17. Thus, only days up to and including today are shown on the timesheet.
 
 The final row of the timesheet shows the totals for the lengths of breaks, lengths of shifts, and cost of shifts.
 
@@ -86,11 +80,11 @@ The final row of the timesheet shows the totals for the lengths of breaks, lengt
 
 #### Update
 
-This button saves the current state of the timesheet. Lengths of breaks (unless [overridden](#friday)) and shifts are re-calculated, as are the associated costs.
+This button saves the current state of the timesheet. Lengths of breaks (unless [overridden](#overriden)) and shifts are re-calculated, as are the associated costs.
 
 #### Verify Times
 
-This button verifies ***all*** times in the timesheet. That's the equivalent of looking at the timesheet and saying "all these times seem fine, Kyle's just a bit forgetful - all good!".
+This button [verifies](../verified-times/) ***all*** times in the timesheet. That's the equivalent of looking at the timesheet and saying "all these times seem fine, Kyle's just a bit forgetful - all good!".
 
 {% render_partial irreversible.html %}
 
@@ -105,11 +99,7 @@ You may prefer to only verify individual times. You can do this by clicking on a
 
 #### Approve
 
-This set's the timesheet's status to approved, which will in term [verify all times](#verify_times) and prevent future clock-ins from appearing on this timesheet.
-
-#### Reject
-
-This set's the timesheet's status to rejected, which will in term [verify all times](#verify_times) and prevent future clock-ins from appearing on this timesheet. Rejected timesheets are **not** included in [exports](../exports/).
+This sets the status of each shift to approved. If the timesheet is complete (not ongoing), it will also be marked as approved.
 
 #### Delete
 
