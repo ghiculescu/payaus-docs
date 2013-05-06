@@ -11,8 +11,9 @@ To remind your staff about their timesheets, click the *Send reminders* button w
 
 ![Timesheet reminders button](/img/timesheets/send_reminders_button.png)
 
-You can also click the link while viewing a timesheet, to only send a reminder about that specific timesheet.
+You can also click the link while viewing the timesheet list, or an timesheet, to only send a reminder about that specific timesheet.
 
+![Reminder link on timesheets list](/img/timesheets/timesheet_list_reminders.png)
 ![Timesheet reminder link](/img/timesheets/timesheet_reminder_link.png)
 
 Then, choose which staff members to send a message to, then click the appropriate button to send the messages by Email or SMS.
