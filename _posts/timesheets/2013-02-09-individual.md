@@ -50,10 +50,10 @@ Like Monday, Kyle was forgetful on Wednesday, hence some of the times are unconf
 
 Thursday, like Tuesday, has been approved. It was a full eight hour shift.
 
-<span id="overnight"></span>
-<span id="overriden"></span>
 #### Friday
 
+<span id="overnight"> </span>
+<span id="overriden"> </span>
 ![Friday](/img/timesheets/friday.png)
 
 Kyle worked the late shift on Friday; 8 PM Friday night until 4:30 AM on Saturday morning. The yellow highlighting, and "AM" suffix, draw attention to this &mdash; if you want to mark any other time on the timesheet as being "overnight", you can so simply by appending an "AM". You should see the yellow highlighting appear automatically when you do.
