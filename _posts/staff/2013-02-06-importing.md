@@ -109,6 +109,6 @@ When the import is complete you'll see your new list of staff. If there were any
 <div class="alert alert-block">
 	<i class="icon-wrench"> </i>
 	<p>
-		Don't use <b>MYOB</b> or <b>Wage Easy</b>? We're building importing systems for other accounting packages too! <a href="http://www.payaus.com/contact?from=help-myob">Let us know</a> what you use.
+		We're building importing systems for other accounting packages too! <a href="http://www.payaus.com/contact?from=help-importing-staff">Let us know</a> what you use.
 	</p>
 </div>
