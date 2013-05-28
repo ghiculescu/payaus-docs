@@ -80,6 +80,20 @@ Click the *Import Staff* button when you're ready. Importing can take a minute o
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the Wage Easy file was the culprit. The errors can be corrected by editing the Wage Easy `.csv` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
 
+## Using Quickbooks
+
+### Exporting from Quickbooks
+
+You can export your staff data from Quickbooks. PayAus does not currently import staff data from Quickbooks automatically, but the PayAus support team is able to assist you with data imports. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
+
+To export data from Quickbooks;
+
+1. Choose the `Utilities` option from the `File` menu.
+2. Choose the `Export` option, then the `Lists to IIF files` option.
+3. Choose to export an **Employee List**, then click OK. You will be able to choose a location to save this file on your computer.
+
+Once you have saved a `.iif` file on your computer, you can email it to PayAus support, who will be able to import your staff into PayAus from this file. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
+
 ## Importing from Excel
 
 Using Microsoft Excel, you can fill out a template in `.csv` format to import your staff data. From the [staff page](../team/), follow the prompts to get to the Import From Excel page.
