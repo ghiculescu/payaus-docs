@@ -92,6 +92,8 @@ To export data from Quickbooks;
 2. Choose the `Export` option, then the `Lists to IIF files` option.
 3. Choose to export an **Employee List**, then click OK. You will be able to choose a location to save this file on your computer.
 
+[See this guide from Quickbooks support for more information.](http://payroll.intuit.com/support/kb/1000915.html)
+
 Once you have saved a `.iif` file on your computer, you can email it to PayAus support, who will be able to import your staff into PayAus from this file. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
 
 ## Importing from Excel
