@@ -3,6 +3,7 @@ layout: guide
 title: Working With Your Staff
 categories: ['rosters']
 sort: 2
+published: false
 ---
 
 ![A big and beautiful roster](/img/rosters/full.png)
