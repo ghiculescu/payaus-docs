@@ -88,7 +88,7 @@ You can export your staff data from Quickbooks. PayAus does not currently import
 
 To export data from Quickbooks;
 
-1. Choose the `Utilities` option from the `File` menu.
+1. Choose the `File` menu, then the `Utilities` option.
 2. Choose the `Export` option, then the `Lists to IIF files` option.
 3. Choose to export an **Employee List**, then click OK. You will be able to choose a location to save this file on your computer.
 
