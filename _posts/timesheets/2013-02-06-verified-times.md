@@ -11,7 +11,7 @@ Some of these methods are *verifiable*, meaning the time entered can be verified
 
 Methods that are **not** verifiable are those in which the employee is able to enter a time for an action, such as clocking in or clocking out. These are considered not verifiable because your employee *could* enter the time incorrectly &mdash; mistakenly, or milaciously &mdash; and PayAus would not be able to verify it automatically.
 
-Unverified times are highlighted in bold in a staff member's [clock-in stream](../../staff/streams/). They also show up on a [timesheet](../intro/) in pink. When you click on an unverified time, you are able to mark it is verified by clicking on the <i class="icon-ok"> </i> tick icon, then the [**Update** button](../individual/#buttons).
+Unverified times are highlighted in bold in a staff member's [clock-in stream](../../staff/streams/). They also show up on a [timesheet](../intro/) in [pink](../colours/). When you click on an unverified time, you are able to mark it is verified by clicking on the <i class="icon-ok"> </i> tick icon, then the [**Update** button](../individual/#buttons).
 
 ![Verifying an individual time](/img/timesheets/verify_time.png)
 
