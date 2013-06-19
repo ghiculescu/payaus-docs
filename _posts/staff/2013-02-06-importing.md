@@ -5,7 +5,7 @@ categories: ['staff']
 sort: 4
 ---
 
-## Using MYOB
+## MYOB
 
 Importing your staff from MYOB is a convenient alternative to entering their details manually. It's a two step process.
 
@@ -52,7 +52,54 @@ Click the *Import Staff* button when you're ready. Importing can take a minute o
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the MYOB file was the culprit. The errors can be corrected by editing the MYOB `.txt` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
 
-## Using Wage Easy
+## Xero
+
+### Setting up Xero to connect to PayAus
+
+Before you can sync your timesheets with Xero, you'll need to configure a few things in your Xero account.
+
+1. Your Xero organisation should be activated for Xero Payroll - this is only available to Australian organisations currently. You can enable Xero Payroll by clicking the [Payroll](https://go.xero.com/Payroll/Start) tab in Xero and following the prompts. See [Xero's guide](https://help.xero.com/au/#PayrollStart) for more information.
+2. Your user account must be a Payroll administrator. Go to [Settings > General Settings > Users](https://go.xero.com/Setup/Users.aspx), choose your account, then check the *Payroll Admin* checkbox.
+3. Ensure that you have created a payroll calendar in Xero. You can do this at Settings > Payroll Settings > Payroll Calendars. The calendar should match your PayAus timesheets, which are fortnightly by default.
+4. Ensure that you have created Earnings Rates in Xero for your employees' awards. You can do this at Settings > Payroll Settings > Pay Items > Earnings. Once set up, PayAus will map its [awards](../../awards/) data to these earnings rates.
+5. Ensure each employee has a payroll calendar and default earnings rate. You can set these up at Payroll > Employees > (choose an employee) > Employment.
+
+### Syncing staff with Xero
+
+From the [staff page](../team/), follow the prompts to get to import staff from Xero.
+
+![Importing from MYOB - navigation](/img/users/myob_navigation.png)
+
+You'll be redirected to a screen where you can authorise PayAus to access your Xero account. Choose your Xero organisation and click *Authorise*.
+
+![Authorising with Xero](/img/xero_auth.png)
+
+<div class="alert alert-block">
+  <i class="icon-exclamation-sign"> </i>
+  <p>
+  	You'll need to authorise your account every time you import staff from Xero.
+  </p>
+</div>
+
+You'll be redirected back to PayAus, where you'll see a progress indicator. Once your staff have been imported, you'll be able to [welcome them to PayAus](../introducing/). <a href="http://www.payaus.com/about/us">Contact PayAus</a> if you get any errors you are unable to fix.
+
+## Reckon (QuickBooks/Quicken)
+
+### Exporting from Quickbooks
+
+You can export your staff data from Quickbooks. PayAus does not currently import staff data from Quickbooks automatically, but the PayAus support team is able to assist you with data imports. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
+
+To export data from Quickbooks;
+
+1. Choose the `File` menu, then the `Utilities` option.
+2. Choose the `Export` option, then the `Lists to IIF files` option.
+3. Choose to export an **Employee List**, then click OK. You will be able to choose a location to save this file on your computer.
+
+[See this guide from Quickbooks support for more information.](http://payroll.intuit.com/support/kb/1000915.html)
+
+Once you have saved a `.iif` file on your computer, you can email it to PayAus support, who will be able to import your staff into PayAus from this file. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
+
+## Wage Easy
 
 ### Exporting from Wage Easy
 
@@ -79,22 +126,6 @@ Once you've exported your staff from Wage Easy, click the *Browse* button, and f
 Click the *Import Staff* button when you're ready. Importing can take a minute or two, depending on how many staff you have, so be patient &mdash; and **don't** click the button again!
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the Wage Easy file was the culprit. The errors can be corrected by editing the Wage Easy `.csv` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
-
-## Using Quickbooks
-
-### Exporting from Quickbooks
-
-You can export your staff data from Quickbooks. PayAus does not currently import staff data from Quickbooks automatically, but the PayAus support team is able to assist you with data imports. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
-
-To export data from Quickbooks;
-
-1. Choose the `File` menu, then the `Utilities` option.
-2. Choose the `Export` option, then the `Lists to IIF files` option.
-3. Choose to export an **Employee List**, then click OK. You will be able to choose a location to save this file on your computer.
-
-[See this guide from Quickbooks support for more information.](http://payroll.intuit.com/support/kb/1000915.html)
-
-Once you have saved a `.iif` file on your computer, you can email it to PayAus support, who will be able to import your staff into PayAus from this file. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
 
 ## Importing from Excel
 
