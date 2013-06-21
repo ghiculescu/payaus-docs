@@ -70,16 +70,7 @@ From the [staff page](../team/), follow the prompts to get to import staff from 
 
 ![Importing from MYOB - navigation](/img/users/myob_navigation.png)
 
-You'll be redirected to a screen where you can authorise PayAus to access your Xero account. Choose your Xero organisation and click *Authorise*.
-
-![Authorising with Xero](/img/xero_auth.png)
-
-<div class="alert alert-block">
-  <i class="icon-exclamation-sign"> </i>
-  <p>
-  	You'll need to authorise your account every time you import staff from Xero.
-  </p>
-</div>
+{% render_partial xero_auth.md %}
 
 You'll be redirected back to PayAus, where you'll see a progress indicator. Once your staff have been imported, you'll be able to [welcome them to PayAus](../introducing/). <a href="http://www.payaus.com/about/us">Contact PayAus</a> if you get any errors you are unable to fix.
 
