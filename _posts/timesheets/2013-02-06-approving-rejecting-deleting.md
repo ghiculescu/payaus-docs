@@ -19,6 +19,8 @@ Sometimes, you will see data that looks a bit odd. For example, you might see th
 
 ![Clocked in, not out](/img/timesheets/clocked_in_not_out.png)
 
+{% render_partial shortcuts.html %}
+
 Managers can also use the approve all as a handy shortcut, and can click the green button at the bottom to move on to the next day, if they are working through several days worth of shifts. Alternatively, click the calendar icon to go to any date.
 
 ![Navigation calendar](/img/timesheets/today_timesheets_calendar.png)

@@ -19,6 +19,8 @@ The header gives us introductory information regarding this timesheet. It starts
 
 ### Shifts
 
+{% render_partial shortcuts.html %}
+
 #### Monday
 
 ![Monday](/img/timesheets/monday.png)
