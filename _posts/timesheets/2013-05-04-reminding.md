@@ -2,7 +2,7 @@
 layout: guide
 title: Reminding Your Staff to Enter Timesheets
 categories: ['timesheets']
-sort: 8
+sort: 9
 ---
 
 Sometimes staff will forget to clock in or out of PayAus via a [hardware terminal](../../portals/). Sometimes they'll even forget to fix this using the [online portal](../../forgot/). When this happens, PayAus can help you remind them to complete their timesheets. You can automatically remind your staff to fill out a timesheet by email or SMS.

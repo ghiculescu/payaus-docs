@@ -2,7 +2,7 @@
 layout: guide
 title:  Verifying Times
 categories: ['timesheets']
-sort: 4
+sort: 5
 ---
 
 There are [numerous methods]({% lead_post portals url %}) of entering staff attendance data into PayAus.

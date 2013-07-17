@@ -1,0 +1,7 @@
+Emp. Co./Last Name	Emp. First Name	Payroll Category	Job	Cust. Co./Last Name	Cust. First Name	Notes	Date	Units	Emp. Card ID	Emp. Record ID	Start/Stop Time	Customer Card ID	Customer Record ID
+Jakowski	Harold	Base Hourly					11/02/2013	7.8	HJI				
+Jakowski	Harold	Pizza Deliveries Base					11/02/2013	4.0	HJI				
+Jakowski	Harold	Base Hourly					12/02/2013	8.4	HJI				
+Jakowski	Harold	Pizza Deliveries Base					12/02/2013	6.0	HJI				
+Jakowski	Harold	Base Hourly					13/02/2013	7.22	HJI				
+Jakowski	Harold	Pizza Deliveries Base					13/02/2013	3.0	HJI				
