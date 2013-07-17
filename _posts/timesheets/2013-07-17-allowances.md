@@ -31,6 +31,6 @@ When you [export your timesheet data for payroll](../exports/), allowance data w
 
 Xero allows you to create ["allowance" Pay Items](http://help.xero.com/help/PayrollHDIAddEarningRate.htm), but these can only be applied during Pay Runs, *not* on Timesheets. As a result, they can not be imported from other systems, such as PayAus.
 
-A workaround is available &mdash; simply create your allowance as a regular, "Ordinary Time", Pay Item, with a name that matches the export name in PayAus. The data will then be correctly imported from PayAus to your Xero timesheets.
+A workaround is available &mdash; simply create your allowance as a regular, "Ordinary Time", Pay Item, with a name that matches the export name in PayAus. Ensure that the unit type is set to "Hours", so that it works with Xero timesheets. The data can then be correctly imported from PayAus to your Xero timesheets.
 
-While this will generally not cause any other issues, you may wish to consult your accountant or bookkeeper if you use this workaround. 
+While this will generally not cause any other issues, though it may look a bit odd on payslips. You may wish to consult your accountant or bookkeeper if you use this workaround. 
