@@ -6,3 +6,8 @@ gem 'unicorn'
 gem 'kramdown'
 gem 'yui-compressor'
 gem 'nokogiri'
+
+group :development do
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+end
