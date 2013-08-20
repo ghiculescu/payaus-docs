@@ -9,7 +9,7 @@ PayAus allows you to track various allowances alongside your timesheets easily. 
 
 ### Creating Allowances
 
-To get started, create your allowances on the shift allowances page.
+To get started, create your allowances on the shift allowances page (accessed via the Payroll menu).
 
 ![The allowances menu item](/img/timesheets/allowances_menu.png)
 
