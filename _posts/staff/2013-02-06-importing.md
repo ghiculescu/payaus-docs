@@ -119,6 +119,35 @@ Click the *Import Staff* button when you're ready. Importing can take a minute o
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the Wage Easy file was the culprit. The errors can be corrected by editing the Wage Easy `.csv` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
 
+## CloudPayroll
+
+### Exporting from CloudPayroll
+
+PayAus can process staff information from a Wage Easy *Staff Detailed Table report*.
+
+1. Go to the `Reports` list.
+2. Choose `Staff - Detailed Table`
+3. Right click the `Open as Text` link
+4. Choose the option to save the link. The wording will differ depending on your web browser, but it should say something like "Save Link As..." or "Download Linked File As...". Take note of where on your computer you save the file the `.txt` file.
+
+![Step 2 - The report to select](/img/users/cloudpayroll_staff_report.png)
+
+![Step 4 - Saving the text report](/img/users/cloudpayroll_save_as.png)
+
+### Importing into PayAus
+
+From the [staff page](../team/), follow the prompts to get to the Import From CloudPayroll page.
+
+![Importing from Wage Easy - navigation](/img/users/myob_navigation.png)
+
+Once you've exported your staff from Wage Easy, click the *Browse* button, and find where you saved the file to your computer. The button might look slightly different to how it does in the image below, depending on your web browser. You can also apply one or more [tags](../team/#fields_available) to the staff that will be imported by entering them into the text box, separated by commas.
+
+![Importing from Wage Easy - the page](/img/users/user_import_form.png)
+
+Click the *Import Staff* button when you're ready. Importing can take a minute or two, depending on how many staff you have, so be patient &mdash; and **don't** click the button again!
+
+When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the CloudPayroll file was the culprit. The errors can be corrected by editing the CloudPayroll `.txt` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members). Note that PayAus will ignore the first few lines of the CloudPayroll file and will only start counting lines from the line that contains headers ("id surname firstNames...").
+
 ## Importing from Excel
 
 Using Microsoft Excel, you can fill out a template in `.csv` format to import your staff data. From the [staff page](../team/), follow the prompts to get to the Import From Excel page.
