@@ -123,7 +123,7 @@ When the import is complete you'll see your new list of staff. If there were any
 
 ### Exporting from CloudPayroll
 
-PayAus can process staff information from a Wage Easy *Staff Detailed Table report*.
+PayAus can process staff information from a CloudPayroll *Staff Detailed Table report*.
 
 1. Go to the `Reports` list.
 2. Choose `Staff - Detailed Table`
