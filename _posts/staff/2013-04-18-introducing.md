@@ -22,3 +22,9 @@ Your staff will get an email that contains their passcode, a brief welcome, and 
 Your staff will get a text message that contains their passcode and a brief welcome.
 
 ![Welcome SMS](/img/users/welcome_sms.png)
+
+### SMS with phone app
+
+If you are using a [PayAus phone app](../../portals/intro/#phone_app), staff will get two messages. The first welcomes them, the second contains a link to open the app on their phone. This link is different for everyone, and staff can tap it to open it on their phones.
+
+![Welcome SMS when using phone app](/img/users/welcome_sms_phone_app.png)
