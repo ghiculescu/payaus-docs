@@ -95,10 +95,10 @@ Once you have saved a `.iif` file on your computer, you can email it to PayAus s
 
 ### Exporting from Wage Easy
 
-PayAus can process staff information from a Wage Easy *Employee Report*. The exact export process depends on your version of Wage Easy, but they are all similar.
+PayAus can process staff information from a Wage Easy *Employee Export*. The exact export process depends on your version of Wage Easy, but they are all similar.
 
 1. Go to the `HR` menu.
-2. Click `User Defined Queries`, then choose the `Company Current Employee Report`.
+2. Click `User Defined Queries`, then choose the `Company Current Employee Export`.
 3. Select the relevant financial period. Usually you will only want to show current staff.
 4. Right click on the highlighted fields, and follow the prompt to export your data as a **`CSV`**.
 5. Save the `.csv` file somewhere on your computer.
