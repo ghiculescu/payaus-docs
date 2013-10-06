@@ -73,13 +73,13 @@ From the [staff page](../team/), follow the prompts to get to import staff from 
 
 {% render_partial xero_auth.md %}
 
-You'll be redirected back to PayAus, where you'll see a progress indicator. Once your staff have been imported, you'll be able to [welcome them to PayAus](../introducing/). <a href="http://www.payaus.com/about/us">Contact PayAus</a> if you get any errors you are unable to fix.
+You'll be redirected back to PayAus, where you'll see a progress indicator. Once your staff have been imported, you'll be able to [welcome them to PayAus](../introducing/). <a href="http://www.payaus.com/about">Contact PayAus</a> if you get any errors you are unable to fix.
 
 ## Reckon (QuickBooks/Quicken)
 
 ### Exporting from Quickbooks
 
-You can export your staff data from Quickbooks. PayAus does not currently import staff data from Quickbooks automatically, but the PayAus support team is able to assist you with data imports. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
+You can export your staff data from Quickbooks. PayAus does not currently import staff data from Quickbooks automatically, but the PayAus support team is able to assist you with data imports. [Contact PayAus](http://www.payaus.com/about?from=help) for more information.
 
 To export data from Quickbooks;
 
@@ -89,7 +89,7 @@ To export data from Quickbooks;
 
 [See this guide from Quickbooks support for more information.](http://payroll.intuit.com/support/kb/1000915.html)
 
-Once you have saved a `.iif` file on your computer, you can email it to PayAus support, who will be able to import your staff into PayAus from this file. [Contact PayAus](http://www.payaus.com/about/us?from=help) for more information.
+Once you have saved a `.iif` file on your computer, you can email it to PayAus support, who will be able to import your staff into PayAus from this file. [Contact PayAus](http://www.payaus.com/about?from=help) for more information.
 
 ## Wage Easy
 
@@ -148,6 +148,20 @@ Click the *Import Staff* button when you're ready. Importing can take a minute o
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the CloudPayroll file was the culprit. The errors can be corrected by editing the CloudPayroll `.txt` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members). Note that PayAus will ignore the first few lines of the CloudPayroll file and will only start counting lines from the line that contains headers ("id surname firstNames...").
 
+## KeyPay
+
+PayAus can automatically import staff information from KeyPay.
+
+### Syncing Staff with KeyPay
+
+From the [staff page](../team/), follow the prompts to get to import staff from Xero.
+
+![Importing from MYOB - navigation](/img/users/myob_navigation.png)
+
+{% render_partial keypay_auth.md %}
+
+Once you've connected your account to KeyPay, your staff will be imported from KeyPay automatically. You can do this as many times as you like, so if you employee someone new, enter their details into KeyPay then import them into PayAus. Once your staff have been imported, you'll be able to [welcome them to PayAus](../introducing/). <a href="http://www.payaus.com/about">Contact PayAus</a> if you get any errors.
+
 ## Importing from Excel
 
 Using Microsoft Excel, you can fill out a template in `.csv` format to import your staff data. From the [staff page](../team/), follow the prompts to get to the Import From Excel page.
@@ -177,6 +191,6 @@ When the import is complete you'll see your new list of staff. If there were any
 <div class="alert alert-block">
 	<i class="icon-wrench"> </i>
 	<p>
-		We're building importing systems for other accounting packages too! <a href="http://www.payaus.com/contact?from=help-importing-staff">Let us know</a> what you use.
+		We're building importing systems for other accounting packages too! <a href="http://www.payaus.com/about?from=help-importing-staff">Let us know</a> what you use.
 	</p>
 </div>
