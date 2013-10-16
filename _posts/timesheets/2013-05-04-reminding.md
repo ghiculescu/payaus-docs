@@ -14,6 +14,7 @@ To remind your staff about their timesheets, click the *Send reminders* button w
 You can also click the link while viewing the timesheet list, or an timesheet, to only send a reminder about that specific timesheet.
 
 ![Reminder link on timesheets list](/img/timesheets/timesheet_list_reminders.png)
+
 ![Timesheet reminder link](/img/timesheets/timesheet_reminder_link.png)
 
 Then, choose which staff members to send a message to, then click the appropriate button to send the messages by Email or SMS.
@@ -31,3 +32,7 @@ Your staff will get an email that reminds them to fill out their timesheet.
 Your staff will get a text message that reminds them to fill out their timesheet.
 
 ![Timesheet reminder SMS](/img/timesheets/reminder_sms.png)
+
+### Automating
+
+Doing this every week sounds too much like hard work! If you prefer, you can have PayAus [automatically remind staff to fill out their timesheets](../../notifications/tasks/).
