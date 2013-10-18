@@ -2,10 +2,12 @@
 layout: guide
 title: Clock-in tracking
 categories: ['notifications']
-sort: 5
+sort: 3
 ---
 
-Want to keep tabs on a particular employee who keeps turning up late (or not at all)? Want to check who was first to work this morning? PayAus can send you an SMS the moment someone clocks in or out of the office. You can enable clock-in tracking from the [notifications page](../intro/).
+Want to keep tabs on a particular employee who keeps turning up late (or not at all)? Want to check who was first to work this morning? PayAus can send you an SMS the moment someone clocks in or out of the office.
+
+![Triggered notification](/img/notifications/triggered_notification.png)
 
 ![Clock-in tracking](/img/notifications/login_tracking.png)
 
