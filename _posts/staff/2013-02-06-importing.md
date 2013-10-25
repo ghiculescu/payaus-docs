@@ -26,7 +26,7 @@ MYOB has more information on the export process on their support site:
 
 #### Three Golden Rules
 
-There are two important rules to keep in mind when exporting your data;
+There are three important rules to keep in mind when exporting your data;
 
 1. Ensure that all staff you wish to import have a **MYOB Card ID**. PayAus uses this field to import data back in to MYOB. Staff without a Card ID will not be imported. You can set a Card ID when editing employee details in MYOB. [This guide](http://www.perdisco.com/au/myobLearning/setup/addEmployee.aspx) (step 5) may be helpful.
 2. Ensure your file is **tab delimited**. This means the spaces between fields are separated by tabs (as opposed to commas). The default in MYOB AccountRight 2011 and later is commas; you *must* change it to tabs.
