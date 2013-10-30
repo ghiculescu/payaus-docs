@@ -23,6 +23,33 @@ Once you have created an allowance, you'll see a new column in your timesheets. 
 
 ![Allowances on a timesheet](/img/timesheets/allowances_on_timesheet.png)
 
+### Automatically Allocating Allowances
+
+Use the configuration on the allowances form to have your allowances automatically be applied when someone clocks in or out. The fields available are similar to the [award fields](../../awards/fields/), as well as some additional ones:
+
+![Allowance automation form](/img/timesheets/allowance_form.png)
+
+#### Applies for...
+
+* To allow an allowance to apply to any shift, choose **all shifts**. This makes sense in the majority of cases.
+* To apply an allowance to the first shift of each timesheet, choose **first shift of the timesheet**. This is useful if you have, for example, a laundry allowance that's paid once per pay period.
+* Choose **shifts longer than**, and enter a number of hours, to apply allowances in cases of shifts of a particular length or more. If you have chosen to have the allowance apply to specific times, then this number of hours will need to be worked between those times for it to apply.
+
+#### Allowance settings
+
+The **number of units to apply** will be applied based on the following settings:
+
+* Choose **once per shift** to apply the number of units once for each shift in a timesheet. For example, you could have all staff tagged casual get a "casual bonus" allowance once for each shift they work.
+* Apply the allowance to **each full hour worked** to apply the number of units for each hour worked between certain times (or an entire shift). For example, you could apply an allowance for every hour worked between 10pm and midnight.
+* Set the allowance to apply **on a per minute basis** to have the number of units applied be multiplied by the number of hours worked. For example, if you enter three units and a shift goes for four and a half hours, 13.5 units of this allowance will be automatically applied. This is the default setting.
+
+<div class="alert alert-block">
+	<i class="icon-exclamation-sign"> </i>
+	<p>
+		Allowances are automatically applied when staff clock in or out, but <b>not</b> when you edit timesheets manually.
+	</p>
+</div>
+
 ### Exporting Allowance data for Payroll
 
 When you [export your timesheet data for payroll](../exports/), allowance data will be included in the file you export. As seen in [this example MYOB file](/files/myob_with_allowances.txt), there is an extra line for each shift which contains the allowance data entered into the timesheet. This would be mapped to a wage category called "Pizza Deliveries Base" in MYOB. Other systems which import data from text files, such as Quickbooks, will behave similarly.
