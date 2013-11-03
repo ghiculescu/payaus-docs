@@ -62,7 +62,7 @@ Before you can sync your timesheets with Xero, you'll need to configure a few th
 1. Your Xero organisation should be activated for Xero Payroll - this is only available to Australian organisations currently. You can enable Xero Payroll by clicking the [Payroll](https://go.xero.com/Payroll/Start) tab in Xero and following the prompts. See [Xero's guide](https://help.xero.com/au/#PayrollStart) for more information.
 2. Your user account must be a Payroll administrator. Go to [Settings > General Settings > Users](https://go.xero.com/Setup/Users.aspx), choose your account, then check the *Payroll Admin* checkbox.
 3. Ensure that you have created a payroll calendar in Xero. You can do this at Settings > Payroll Settings > Payroll Calendars. The calendar should match your PayAus timesheets, which are fortnightly by default.
-4. Ensure that you have created Earnings Rates in Xero for your employees' awards. You can do this at Settings > Payroll Settings > Pay Items > Earnings. Once set up, PayAus will map its [awards](../../awards/) data to these earnings rates.
+4. Ensure that you have created Earnings Rates in Xero for your employees' awards. You can do this at Settings > Payroll Settings > Pay Items > Earnings. Once set up, PayAus will map its [awards](../../payroll/) data to these earnings rates.
 5. Ensure each employee has a payroll calendar and default earnings rate. You can set these up at Payroll > Employees > (choose an employee) > Employment.
 
 ### Syncing staff with Xero
