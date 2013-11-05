@@ -168,7 +168,7 @@ Using Microsoft Excel, you can fill out a template in `.csv` format to import yo
 
 ![Importing from Excel - navigation](/img/users/myob_navigation.png)
 
-On the import from Excel page, follow the link to download the [import template](http://www.payaus.com/docs/import_template.csv). You can open this fine in Excel, or in any text or spreadsheet editor.
+On the import from Excel page, follow the link to download the [import template](https://www.payaus.com/docs/import_template.csv). You can open this fine in Excel, or in any text or spreadsheet editor.
 
 ![Opening the import template in Numbers for Mac](/img/users/import_template_numbers.png)
 
