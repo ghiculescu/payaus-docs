@@ -41,7 +41,7 @@ The **number of units to apply** will be applied based on the following settings
 
 * Choose **once per shift** to apply the number of units once for each shift in a timesheet. For example, you could have all staff tagged casual get a "casual bonus" allowance once for each shift they work.
 * Apply the allowance to **each full hour worked** to apply the number of units for each hour worked between certain times (or an entire shift). For example, you could apply an allowance for every hour worked between 10pm and midnight.
-* Set the allowance to apply **on a per minute basis** to have the number of units applied be multiplied by the number of hours worked. For example, if you enter three units and a shift goes for four and a half hours, 13.5 units of this allowance will be automatically applied. This is the default setting.
+* If neither is ticked, the allowance will apply **on a per minute basis**, so the number of units to apply will be multiplied by the number of hours worked. For example, if you enter three units and a shift goes for four and a half hours, 13.5 units of this allowance will be automatically applied. This is the default setting.
 
 <div class="alert alert-block">
 	<i class="icon-exclamation-sign"> </i>

@@ -5,9 +5,7 @@ categories: ['staff']
 sort: 4
 ---
 
-## MYOB
-
-Importing your staff from MYOB is a convenient alternative to entering their details manually. It's a two step process.
+## MYOB (desktop versions)
 
 ### Exporting from MYOB
 
@@ -52,6 +50,20 @@ Once you've exported your staff from MYOB, click the *Browse* button, and find w
 Click the *Import Staff* button when you're ready. Importing can take a minute or two, depending on how many staff you have, so be patient &mdash; and **don't** click the button again!
 
 When the import is complete you'll see your new list of staff. If there were any errors in the import, PayAus will let you know what went wrong, and which line of the MYOB file was the culprit. The errors can be corrected by editing the MYOB `.txt` file, though if there are only a few that didn't work, it may be easier to [add them manually](../team/#adding_new_team_members).
+
+## MYOB AccountRight Live
+
+PayAus is able to automatically import staff data from [MYOB AccountRight Live](http://myob.com.au/business/customer-service-support/accountright-live-1257830110346). AccountRight Live lets you use MYOB in a cloud based environment through your web browser.
+
+### Syncing staff with MYOB AccountRight Live
+
+From the [staff page](../team/), follow the prompts to get to import staff from MYOB AccountRight Live.
+
+![Importing from MYOB - navigation](/img/users/myob_navigation.png)
+
+{% render_partial myob_auth.md %}
+
+You'll be redirected back to PayAus, where you'll see a progress indicator. Once your staff have been imported, you'll be able to [welcome them to PayAus](../introducing/). <a href="http://www.payaus.com/about">Contact PayAus</a> if you get any errors you are unable to fix.
 
 ## Xero
 
@@ -152,7 +164,7 @@ When the import is complete you'll see your new list of staff. If there were any
 
 PayAus can automatically import staff information from KeyPay.
 
-### Syncing Staff with KeyPay
+### Syncing staff with KeyPay
 
 From the [staff page](../team/), follow the prompts to get to import staff from Xero.
 
