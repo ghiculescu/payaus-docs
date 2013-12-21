@@ -46,7 +46,7 @@ The **number of units to apply** will be applied based on the following settings
 <div class="alert alert-block">
 	<i class="icon-exclamation-sign"> </i>
 	<p>
-		Allowances are automatically applied when staff clock in or out, but <b>not</b> when you edit timesheets manually.
+		By default, allowances are automatically applied when staff clock in or out, but <b>not</b> when you edit timesheets manually. If you like, you can <a href="http://help.payaus.com/settings/settings/#update_shift_allowances_when_shifts_are_edited">enable a setting</a> to have allowances automatically apply whenever you edit a timesheet.
 	</p>
 </div>
 

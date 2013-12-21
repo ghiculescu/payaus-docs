@@ -7,16 +7,6 @@ layout: default
       <div class="well sidebar-nav">
         <ul class="nav nav-list">
           <a href="/index.html"><img src="/img/help_logo.png" alt="PayAus Help Logo" /></a>
-          {% for category in site.posts_sorted_by_category %}
-            {% capture cat_name %}{{ category | first }}{% endcapture %}
-            <li data-category="{{cat_name}}" class="nav-header">
-              {{ cat_name }}
-              <i class="toggle icon-plus"> </i>
-            </li>
-            {% for post in category[1] %}
-              <li data-category="{{cat_name}}" {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}">{{post.title}}</a></li>
-            {% endfor %}
-          {% endfor %}
           <li>
             <div id="search" class="control-group">
               <div class="controls">
@@ -28,6 +18,18 @@ layout: default
                 </div>
               </div>
             </div>
+          </li>
+          {% for category in site.posts_sorted_by_category %}
+            {% capture cat_name %}{{ category | first }}{% endcapture %}
+            <li data-category="{{cat_name}}" class="nav-header">
+              {{ cat_name }}
+              <i class="toggle icon-plus"> </i>
+            </li>
+            {% for post in category[1] %}
+              <li data-category="{{cat_name}}" {% if page.url == post.url %}class="active"{% endif %}><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endfor %}
+          {% endfor %}
+          <li>
             <a href="http://help.payaus.com/about/faq/"><i class="icon-book icon-full-opacity"> </i> FAQ</a>
           </li>
         </ul>
