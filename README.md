@@ -1,7 +1,5 @@
-## help.payaus.com
+## help.tanda.co
 
-The official [PayAus](http://www.payaus.com) support site.
+The official [Tanda](https://www.tanda.co) support site.
 
-Running on Jekyll. Hosted on Heroku using Unicorn. See the [about](http://help.payaus.com/about/this/) page for more information.
-
-If you spot a mistake or would like to suggest a change, go ahead! Contributions are always welcome. Alternatively, email alex@payaus.com
+If you spot a mistake or would like to suggest a change, go ahead! Contributions are always welcome. Alternatively, email alex@tanda.co
